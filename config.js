@@ -43,7 +43,7 @@ const CONFIG = {
       name: 'Github',
       icon: 'github',
       link: 'https://github.com/',
-    }
+    },
     {
       id: '2',
       name: 'Clickup',
