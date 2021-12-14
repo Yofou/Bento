@@ -11,26 +11,26 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'John',
+  name: 'Nathan',
   imageBackground: false,
   openInNewTab: true,
   twelveHourFormat: false,
 
   // Greetings
-  greetingMorning: 'Good morning!',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Go to Sleep!',
+  greetingMorning: 'Madainn mhath,',
+  greetingAfternoon: 'Feasgar math,',
+  greetingEvening: 'Feasgar math,',
+  greetingNight: 'Oidhche mhath!',
 
   // Weather
-  weatherKey: 'InsertYourAPIKeyHere123456',
+  weatherKey: '64ce9fa18eddd948bd4a4fab373c98c6',
   weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
 
   trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-  defaultLatitude: '37.775',
-  defaultLongitude: '-122.419',
+  defaultLatitude: '57.194',
+  defaultLongitude: '3.823',
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
   // │  ├─┤├┬┘ ││└─┐
@@ -43,36 +43,36 @@ const CONFIG = {
       name: 'Github',
       icon: 'github',
       link: 'https://github.com/',
-    },
+    }
     {
       id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.protonmail.com/',
+      name: 'Clickup',
+      icon: 'trello',
+      link: 'https://app.clickup.com/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'trello',
-      link: 'https://todoist.com',
-    },
-    {
-      id: '4',
       name: 'Calendar',
       icon: 'calendar',
       link: 'https://calendar.google.com/calendar/r',
     },
     {
+      id: '4',
+      name: 'Twitter',
+      icon: 'twitter',
+      link: 'https://twitter.com',
+    },
+    {
       id: '5',
-      name: 'Reddit',
-      icon: 'glasses',
-      link: 'https://reddit.com',
+      name: 'Youtube',
+      icon: 'youtube',
+      link: 'https://youtube.com/',
     },
     {
       id: '6',
-      name: 'Odysee',
-      icon: 'youtube',
-      link: 'https://odysee.com/',
+      name: 'Twitch',
+      icon: 'twitch',
+      link: 'https://www.twitch.tv/',
     },
   ],
 
@@ -88,26 +88,18 @@ const CONFIG = {
   lists: {
     firstList: [
       {
-        name: 'Inspirational',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'CyberPunk',
+        link: 'https://www.youtube.com/watch?v=7JqKRqOmzi0',
       },
       {
-        name: 'Classic',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
-        name: 'Oldies',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-      },
-      {
-        name: 'Rock',
-        link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        name: 'Donkey-Kong Lofi',
+        link: 'https://www.youtube.com/watch?v=F1wmPWc_p4o',
       },
     ],
     secondList: [
       {
-        name: 'Linkedin',
-        link: 'https://linkedin.com/',
+        name: 'Daily Dev',
+        link: 'https://app.daily.dev/',
       },
       {
         name: 'Figma',
@@ -118,8 +110,8 @@ const CONFIG = {
         link: 'https://dribbble.com',
       },
       {
-        name: 'Telegram',
-        link: 'https://webk.telegram.org',
+        name: 'Svelte Docs',
+        link: 'https://svelte.dev/',
       },
     ],
   },
